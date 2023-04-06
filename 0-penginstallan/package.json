@@ -1,0 +1,19 @@
+{
+  "name": "0-penginstallan",
+  "version": "1.0.0",
+  "description": "belajar nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3000 node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
